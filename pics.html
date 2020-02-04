@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <head>
 <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Cormorant:400,700&display=swap" rel="stylesheet">
 
@@ -40,22 +41,327 @@
   <div class="row">
     <div class="col-md-12">
       <h1>Cute pictures</h1>
+      <p> We heard that people like to look at cute pictures on wedding websites, so here are a few of our best hits.</p>
 
-      <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": ".grid-sizer", "percentPosition": "true" }'>
+      <div class="grid mb-5" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": ".grid-sizer", "percentPosition": "true" }'>
         <div class="grid-sizer"></div>
-        <div class="grid-item"><img class="img-fluid" src="assets/images/2019_elooped.jpg"></div>
-        <div class="grid-item grid-item--width2"><img class="img-fluid" src="assets/images/2019_elooped.jpg"></div>
-        <div class="grid-item"><img class="img-fluid" src="assets/images/cute_pics/2012_cake.jpg"></div>
-        <div class="grid-item grid-item--width2"><img class="img-fluid" src="assets/images/2019_elooped.jpg"></div>
-        <div class="grid-item"><img class="img-fluid" src="assets/images/2019_elooped.jpg"></div>
-        <div class="grid-item grid-item--width2"><img class="img-fluid" src="assets/images/2019_elooped.jpg"></div>
-        <div class="grid-item"><img class="img-fluid" src="assets/images/2019_elooped.jpg"></div>
-        <div class="grid-item grid-item--width2"><img class="img-fluid" src="assets/images/2019_elooped.jpg"></div>
-        <div class="grid-item"><img class="img-fluid" src="assets/images/2019_elooped.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#polaroid"><img class="img-fluid" src="assets/images/cute_pics/2012_polaroid.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#cake"><img class="img-fluid" src="assets/images/cute_pics/2012_cake.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#roachbro"><img class="img-fluid" src="assets/images/cute_pics/roachbro.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#angela-wedding"><img class="img-fluid" src="assets/images/cute_pics/2013_angela-wedding.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#halloween-1"><img class="img-fluid" src="assets/images/cute_pics/2013_halloween.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#scav-1"><img class="img-fluid" src="assets/images/cute_pics/2013_scav.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#duckface"><img class="img-fluid" src="assets/images/cute_pics/2014_duck.jpg"></div>
+        <div class="grid-item"data-toggle="modal" data-target="#graduation" ><img class="img-fluid" src="assets/images/cute_pics/2014_graduation.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#met"><img class="img-fluid" src="assets/images/cute_pics/2014_met.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#birthday"><img class="img-fluid" src="assets/images/cute_pics/2015_birthday.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#gang-1"><img class="img-fluid" src="assets/images/cute_pics/2015_gang.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#halloween-2"><img class="img-fluid" src="assets/images/cute_pics/2015_halloween.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#roachbro-2"><img class="img-fluid" src="assets/images/cute_pics/2015_roachbro.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#scav-2"><img class="img-fluid" src="assets/images/cute_pics/2015_scav.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#seattle-2"><img class="img-fluid" src="assets/images/cute_pics/2015_seattle-with-yi.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#seattle"><img class="img-fluid" src="assets/images/cute_pics/2015_seattle.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#lolla"><img class="img-fluid" src="assets/images/cute_pics/2016_lolla.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#wiggy"><img class="img-fluid" src="assets/images/cute_pics/2019_wiggy.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#MCA"><img class="img-fluid" src="assets/images/cute_pics/2016_MCA.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#berlin"><img class="img-fluid" src="assets/images/cute_pics/2017_berlin.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#chicago_diner"><img class="img-fluid" src="assets/images/cute_pics/2018_chicago-diner.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#halloween-3"><img class="img-fluid" src="assets/images/cute_pics/2018_halloween.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#power_station"><img class="img-fluid" src="assets/images/cute_pics/2018_power-station.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#lakefront"><img class="img-fluid" src="assets/images/cute_pics/2019_chicago.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#gang-2"><img class="img-fluid" src="assets/images/cute_pics/2019_3.jpg"></div>
+        <div class="grid-item" data-toggle="modal" data-target="#engaged"><img class="img-fluid" src="assets/images/cute_pics/2019_elooped-2.jpg"></div>
+      </div>
+
+      <div class="modal fade" id="polaroid" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2012_polaroid.jpg">
+              <p class="mt-3 mb-1 text-center"> <span class="font-weight-bold">May 2012:</span> full of young love on the Quad</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="cake" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2012_cake.jpg">
+              <p class=" mt-3 mb-1 text-center"><span class="font-weight-bold">June 2012:</span> holding a 10,000 calorie monstrosity</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="roachbro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/roachbro.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">August 2013:</span> our beloved Roachbro in his prime</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="angela-wedding" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2013_angela-wedding.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">June 2013:</span> looking suave</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="halloween-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2013_halloween.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">October 2013:</span> Halloween 2013 as Mudkip & Professor Oak </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="scav-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2013_scav.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">May 2013:</span> Scav 2014 p.1, the hunt when we adopted Roachbro </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="duckface" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2014_duck.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">January 2014:</span> a normal Sunday mood</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="graduation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2014_graduation.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">June 2014:</span> Nicki's UChicago graduation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="met" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2014_met.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">August 2014:</span> On the steps of the Met with Ron</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="birthday" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2015_birthday.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">May 2015:</span> Tyler throws Nicki a suprise birthday party with lots of friends & whiskey</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="gang-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2015_gang.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">June 2015:</span> the gang + Wiggy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="halloween-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2015_halloween.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">October 2015:</span> Halloween as pizza rat, a premonition of our imminent New York move</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="roachbro-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2015_roachbro.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">February 2015:</span> Valentine's Day family portrait with our favorite lil roach</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="scav-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2015_scav.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">May 2015:</span> A <a href="https://en.wikipedia.org/wiki/Harold%27s_Chicken_Shack">Harold's</a> themed puppet show during Scav 2015 Judgement </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="seattle" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2015_seattle.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">December 2015:</span> With a giant troll in Seattle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="seattle-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2015_seattle-with-yi.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">December 2015:</span> Visiting Yi in Seattle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="lolla" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2016_lolla.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">July 2016:</span> Seeing Radiohead at Lollapalooza with Shank, shortly before Tyler destroyed Nicki's eardrums by screaming "Jonnnnnnyyyyyyyy!!!!!!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="wiggy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2019_wiggy.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">October 2019:</span> Wiggy the piggy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="MCA" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2016_MCA.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">February 2016:</span> At our favorite museum, the Museum of Contemporary Art Chicago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="berlin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2017_berlin.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">May 2016:</span> At the Tiergarten in Berlin</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="chicago_diner" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2018_chicago-diner.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">December 2017:</span> Moments away from scarfing down a Chicago Diner reuben </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="halloween-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2018_halloween.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">October 2018:</span> Halloween as two David Bowies – <a href="https://www.youtube.com/watch?v=HyMm4rJemtI">Pierrot</a> and <a href="https://www.youtube.com/watch?v=iYYRH4apXDo">Major Tom.</a> <span class="font-italic">Ashes to ashes, funk to funky, We know Major Tom's a junkie</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="power_station" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2018_power-station.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">June 2018:</span> Rainbow holographic selfie at Power Station of Art in Shanghai</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="lakefront" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2019_chicago.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">December 2019:</span> Lake bois in their natural habitat of Chicago's lakefront</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="gang-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2019_3.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">March 2019:</span> the gang reunites in New York</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="engaged" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog portrait" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img class="img-fluid" src="assets/images/cute_pics/2019_elooped-2.jpg">
+              <p class="mt-3 mb-1 text-center"><span class="font-weight-bold">October 2019:</span> Newly bethrothed at Botany Pond on UChicago's campus</p>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
   </div>
+
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -72,6 +378,11 @@
   itemSelector: '.grid-item',
   columnWidth: 200
 });
+</script>
+<script type="text/javascript">
+  $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
 </script>
 
 </body>
