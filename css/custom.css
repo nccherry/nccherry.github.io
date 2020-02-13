@@ -394,7 +394,7 @@ p a:hover{
     right: auto;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
 
   .lake-bg .container{
     margin-top: 1rem;
@@ -418,6 +418,10 @@ p a:hover{
 
   .timeline_content{
     max-width: calc(100% - 105px);
+  }
+
+  .timeline h3{
+    font-size: calc(16px + 0.2vw) !important;
   }
 }
 
