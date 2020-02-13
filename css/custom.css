@@ -449,6 +449,9 @@ p a:hover{
   .lake-bg h2{
     font-size: calc(15px + 1vw);
   }
+  .timeline h3{
+    font-size: calc(12px + 0.1vw) !important;
+  }
 
 }
 
