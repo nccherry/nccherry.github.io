@@ -242,12 +242,12 @@ p a:hover{
   flex-shrink: 0;
   border-radius: 50%;
   overflow: hidden;
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   position: absolute;
-  top: calc(50% - 50px);
-  left: calc(50% - 50px);
-  z-index: 10;
+  top: calc(50% - 70px);
+  left: calc(50% - 70px);
+  z-index: 1;
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15);
 }
 
@@ -358,6 +358,8 @@ p a:hover{
     transform: scale(1.05);
   }
 
+  /*timeline*/
+
   .timeline_container::before{
     left: 65px;
   }
@@ -369,6 +371,9 @@ p a:hover{
 
   .timeline_img{
     left: 0;
+    width: 100px;
+    height: 100px;
+    top: calc(50% - 50px);
   }
 
   .timeline_content{
