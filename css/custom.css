@@ -309,40 +309,8 @@ p a:hover{
     margin-top: 3rem;
   }
 
-  /*timeline*/
-
-  .timeline_container::before{
-    left: 65px;
-  }
-
-  .timeline .timeline_container:first-child::after,
-  .timeline .timeline_container:last-child::after{
-    left: 61px;
-  }
-
-  .timeline_img{
-    left: 0;
-    width: 100px;
-    height: 100px;
-    top: calc(50% - 50px);
-  }
-
-  .timeline_content{
-    max-width: calc(100% - 150px);
-  }
-
-  .timeline .timeline_container:nth-child(odd) .timeline_block{
-    justify-content: flex-end;
-  }
-
-  .timeline .timeline_container:nth-child(odd) .timeline_content{
-    margin-left: 50px;
-    margin-right: 0px;
-  }
-
-  .timeline .timeline_container:nth-child(odd) .timeline_content::before{
-    left: -50px;
-    right: auto;
+  .timeline h3{
+    font-size: calc(18px + 0.2vw) !important;
   }
 }
 
@@ -359,6 +327,11 @@ p a:hover{
 }
 
 @media (max-width: 767.98px) {
+  .container{
+    width: 100%;
+    max-width: 960px;
+  }
+
   .navbar{
     margin-bottom: 1rem;
   }
@@ -397,8 +370,43 @@ p a:hover{
   .grid-item img:hover{
     transform: scale(1.05);
   }
-}
 
+  /*timeline*/
+
+  .timeline_container::before{
+    left: 65px;
+  }
+
+  .timeline .timeline_container:first-child::after,
+  .timeline .timeline_container:last-child::after{
+    left: 61px;
+  }
+
+  .timeline_img{
+    left: 0;
+    width: 100px;
+    height: 100px;
+    top: calc(50% - 50px);
+  }
+
+  .timeline_content{
+    max-width: calc(100% - 150px);
+  }
+
+  .timeline .timeline_container:nth-child(odd) .timeline_block{
+    justify-content: flex-end;
+  }
+
+  .timeline .timeline_container:nth-child(odd) .timeline_content{
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+
+  .timeline .timeline_container:nth-child(odd) .timeline_content::before{
+    left: -50px;
+    right: auto;
+  }
+}
 @media (max-width: 420px) {
 
   .lake-bg .container{
@@ -461,5 +469,29 @@ p a:hover{
     font-size: calc(14px + 0.3vw);
   }
 
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (s-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
 }
 
